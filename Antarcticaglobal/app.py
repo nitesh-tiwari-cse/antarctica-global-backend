@@ -49,7 +49,7 @@ def login():
                     'Last Name': record.lastname,
                     'Email': record.email,
 					'Emp Id': record.empid,
-                    'Department': record.department.name
+                    'Organization Name': record.department.name
                 }
       
             if username == email and password == pswd:
